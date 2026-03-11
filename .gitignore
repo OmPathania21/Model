@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# YOLO training outputs
+runs/
+wandb/
+
+# Dataset (very large)
+dataset/
+*.zip
+*.tar
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Logs
+*.log
+
+# MacOS junk files
+.DS_Store
+__MACOSX/
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+*.cache
+.cache/
